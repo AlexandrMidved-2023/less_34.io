@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_34 Array</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <div class="main__food-block">
+            <h2>Додай продукт</h2>
+            <div class="add__block">
+
+                <label>
+                    Введи назву продукту
+                    <input id="prodAdd" type="text">
+                </label>
+
+                <label>
+                    Введи кількість продуктів
+                    <input id="amountsAdd" type="number">
+                </label>
+
+                <label>
+                    Введи ціну продукту
+                    <input id="priceAdd" type="number">
+                </label>
+                <button class="btn__add-food" id="addFood">
+                    Додати продукт
+                </button>
+            </div>
+
+            <div class="shopping-list__block" id="list">
+                <div class="bought" id="bought">
+                    <h2>Куплені</h2>
+                </div>
+
+                <div class="not-purchased" id="not-purchased">
+                    <h2>Не куплені</h2>
+                </div>
+            </div>
+            <button class="btn__show-list" id="showList">
+                Список продуктів
+            </button>
+
+            <h2>Видали продукт</h2>
+            <div class="delet__block">
+
+                <label>
+                    Введи назву продукту
+                    <input id="prodDel" type="text">
+                </label>
+
+                <button class="btn__del-food" id="delFood">
+                    Видалити продукт
+                </button>
+            </div>
+            <h2>Введи назву продукту що купив</h2>
+            <div class="bought__block">
+
+                    <input id="boughtInput" type="text">
+
+                <button class="btn__bought-food" id="boughtFood">
+                   Відмітити що купив
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

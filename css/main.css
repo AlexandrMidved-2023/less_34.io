@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background: linear-gradient(#e9f0ef, #3c4c4f);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  padding: 0 calc(50vw - 520px);
+}
+.header__title {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: normal;
+  border-bottom: 1px solid #2f4a4f;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.main {
+  padding: 0 9vw;
+}
+.main label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main input {
+  width: 200px;
+  height: 50px;
+  border-radius: 24px;
+  margin: 15px;
+  font-size: 24px;
+  padding: 10px;
+}
+.main button {
+  cursor: pointer;
+  margin: 40px;
+  width: 250px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 24px;
+  background: #000000;
+  font-size: 18px;
+  color: #ffffff;
+}
+.main p {
+  margin-bottom: 20px;
+}
+.main .shopping-list__block {
+  display: flex;
+  gap: 200px;
+}
+.main .shopping-list__block h2 {
+  width: 100%;
+  height: 20px;
+}
+.main .shopping-list__block .bought, .main .shopping-list__block .not-purchased {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .shopping-list__block .bought .cartBlock, .main .shopping-list__block .not-purchased .cartBlock {
+  width: 150px;
+}
+.main__food-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .add__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .add__block input {
+  color: #00bd00;
+}
+.main .delet__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .delet__block input {
+  color: #ff0000;
+}
